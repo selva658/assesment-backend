@@ -12,7 +12,7 @@
 
 #  Login and get the JWT Token
 
-  - Utilize the POST method with the endpoint http://localhost:3000/login.
+  - Utilize the POST method with the endpoint https://assesment-backend-z21c.onrender.com/login (or) http://localhost:3000/login.
 
   - Within the <b>Body</b> section, select the <b>raw</b> format and choose <b>JSON</b>.
 
@@ -21,6 +21,8 @@
   - {"username":"test@123","password":"12345"}
 
   - Click on send,copy the response JWT Token
+
+  ![alt text](image-3.png)
 
   ![alt text](image.png)
 
@@ -33,11 +35,12 @@
 
    # Get Reports
 
-  - Access the endpoint http://localhost:3000/report using the GET method.
+  - Access the endpoint https://assesment-backend-z21c.onrender.com/report (or) http://localhost:3000/report using the GET method.
 
   - Within the <b>Headers</b> section, include the key as <b>Authorization</b> and the value as the <b>Copied JWT token</b>.
     - If <b>Token is invalid!</b>, please login in again with same cred.
 
+    ![alt text](image-2.png)
     ![alt text](image-1.png)
 
  
