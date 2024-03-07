@@ -16,15 +16,13 @@
 
   - Within the <b>Body</b> section, select the <b>raw</b> format and choose <b>JSON</b>.
 
-  - Input the username as test@123 and the password as 12345:
+  - Input the username as meroku and the password as meroku@123:
 
-  - {"username":"test@123","password":"12345"}
+  - {"username":"meroku","password":"meroku@123"}
 
   - Click on send,copy the response JWT Token
 
   ![alt text](image-3.png)
-
-  ![alt text](image.png)
 
   # Fetch Transaction
 
